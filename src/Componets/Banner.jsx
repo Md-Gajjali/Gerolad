@@ -2,6 +2,9 @@ import React from 'react'
 import Container from './Container'
 import link from '../assets/link.png'
 import man from '../assets/man.png'
+import Top from '../assets/Top.png'
+import right from '../assets/right.png'
+
 
 const Banner = () => {
     return (
@@ -22,9 +25,11 @@ const Banner = () => {
                             footages, pacing, and visual style. My
                             keen attention to detail allows me to
                             enhance the mood.</p>
-                        <div>
+                        <div className='relative'>
                             <h2 className='font-sora font-bold text-[110px] text-white'>12+</h2>
-                            <p className='text-gray-400 text-end -mt-10 border-b-2 border-gray-800'>Years of Experience</p>
+                            <p className='text-gray-400 text-end -mt-10 border-b-2 py-3 border-gray-800'>Years of Experience</p>
+                            <img src={Top} alt="" className='absolute -right-40 top-20 cursor-pointer' />
+                            <img src={right} alt="" className='mt-8.75'/>
                         </div>
                     </div>
                 </div>
