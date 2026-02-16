@@ -6,6 +6,7 @@ import ln from '../assets/ln.png'
 import git from '../assets/git.png'
 import facebook from '../assets/facebook.png'
 import b from '../assets/b.png'
+import Button from './Button'
 
 
 const Navber = () => {
@@ -24,10 +25,14 @@ const Navber = () => {
                     <li>Contact</li>
                 </ul>
                 <div>
+                    <div>
+
                     <img src={facebook} alt="" />
                     <img src={ln} alt="" />
                     <img src={git} alt="" />
                     <img src={b} alt="" />
+                    </div>
+                    <Button className='text-white'>Lets Talk</Button>
                 </div>
             </Flex>
         </Container>
