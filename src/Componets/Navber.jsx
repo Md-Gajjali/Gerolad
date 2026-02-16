@@ -10,34 +10,33 @@ import Button from './Button'
 
 
 const Navber = () => {
-  return (
-    <nav>
-        <Container>
-            <Flex>
-                <div>
-                    <img src={list} alt="" />
-                </div>
-                <ul>
-                    <li>Works</li>
-                    <li>Resume</li>
-                    <li>Skills</li>
-                    <li>Testimonials</li>
-                    <li>Contact</li>
-                </ul>
-                <div>
+    return (
+        <nav className='bg-[#050709] py-8.25 px-16.25'>
+            <Container>
+                <Flex className='justify-between  items-center'>
                     <div>
-
-                    <img src={facebook} alt="" />
-                    <img src={ln} alt="" />
-                    <img src={git} alt="" />
-                    <img src={b} alt="" />
+                        <img src={list} alt="" />
                     </div>
-                    <Button className='text-white'>Lets Talk</Button>
-                </div>
-            </Flex>
-        </Container>
-    </nav>
-  )
+                    <ul className='flex text-gray-400 gap-8.75 navLi '>
+                        <li>Works</li>
+                        <li>Resume</li>
+                        <li>Skills</li>
+                        <li>Testimonials</li>
+                        <li>Contact</li>
+                    </ul>
+                    <div className='flex items-center gap-6.25'>
+                        <Flex>
+                            <img src={facebook} alt="" className='w-7.75 h-7.75' />
+                            <img src={ln} alt="" className='w-7.75 h-7.75' />
+                            <img src={git} alt="" className='w-7.75 h-7.75' />
+                            <img src={b} alt="" className='w-7.75 h-7.75' />
+                        </Flex>
+                        <Button className='text-white'>Lets Talk</Button>
+                    </div>
+                </Flex>
+            </Container>
+        </nav>
+    )
 }
 
 export default Navber
