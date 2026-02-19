@@ -1,13 +1,14 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
-
-@theme{
+@theme {
   --font-sora: "Sora", sans-serif;
+  --color-primary: "#8750F7";
 }
 
 body{
   background: #15091D;
+  font-family: "Sora", sans-serif;
 }
 
 .navLi li {

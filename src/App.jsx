@@ -3,6 +3,7 @@ import './App.css'
 import Navber from './Componets/Navber'
 import Banner from './Componets/Banner'
 import Marquee from './Componets/Marquee'
+import RecentWork from './Componets/RecentWork'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Navber />
       <Banner />
       <Marquee />
+      <RecentWork />
     </>
   )
 }
