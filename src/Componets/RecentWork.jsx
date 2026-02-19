@@ -4,6 +4,9 @@ import Flex from './Flex'
 import Button from './Button'
 import Card from './Card'
 import Ae from '../assets/Ae.png'
+import bg from '../assets/bg.png'
+import prog1 from '../assets/prog1.png'
+import prog2 from '../assets/prog2.png'
 
 const RecentWork = () => {
     return (
@@ -12,49 +15,49 @@ const RecentWork = () => {
                 <p className='text-[#8750F7]'>My Recent Work</p>
                 <Flex className='mt-6 justify-between items-center'>
                     <h2 className="text-5xl  text-white font-sora font-semibold text-[54px] leading-20 " >
-                        MY 
+                        MY
                         <span className="bg-linear-to-r from-white via-gray-600 to-gray-600 bg-clip-text text-transparent">
                             MASTERING VIDEO
                         </span>
-                         <br />
-                         <span className='bg-linear-to-r from-white via-gray-600 to-gray-600 text-transparent bg-clip-text'>
+                        <br />
+                        <span className='bg-linear-to-r from-white via-gray-600 to-gray-600 text-transparent bg-clip-text'>
                             EDITING SKILLS
 
-                         </span>
+                        </span>
                     </h2>
                     <Button className='h-12.25 text-white '>Learn More</Button>
                 </Flex>
-                <Flex className='justify-between'>
-                    <Card  
-                        img={Ae} 
-                        heading='Adobe After
-                        Effect' p='Adobe After Effects is a
+                <Flex className='justify-between mt-15'>
+                    <Card
+                        img={Ae}
+                        heading='Adobe After Effect'
+                        p='Adobe After Effects is a
                         powerful software application
-                        used motion graphics.' 
+                        used motion graphics.'
                         lenght='96'
                     />
-                    <Card  
-                        img={Ae} 
-                        heading='Adobe After
-                        Effect' p='Adobe After Effects is a
-                        powerful software application
-                        used motion graphics.' 
+                    <Card
+                        img={prog2}
+                        heading='Final CutPro'
+                        p='Professional video editingsoftware developed by Apple Inc., designed..'
                         lenght='96'
                     />
-                    <Card  
-                        img={Ae} 
-                        heading='Adobe After
-                        Effect' p='Adobe After Effects is a
-                        powerful software application
-                        used motion graphics.' 
+                    <Card
+                        img={bg}
+                        heading='Hit Films
+                        Express'
+                        p='HitFilm Express is a free video
+                        editing and visual effects
+                        software developed.'
                         lenght='96'
                     />
-                    <Card  
-                        img={Ae} 
-                        heading='Adobe After
-                        Effect' p='Adobe After Effects is a
-                        powerful software application
-                        used motion graphics.' 
+                    <Card
+                        img={prog1}
+                        heading='iMovie
+                        Film'
+                        p='iMovie offers a range of
+                        powerful editing tools that
+                        allow users..'
                         lenght='96'
                     />
                 </Flex>
