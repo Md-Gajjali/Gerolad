@@ -5,6 +5,7 @@ import Banner from './Componets/Banner'
 import Marquee from './Componets/Marquee'
 import RecentWork from './Componets/RecentWork'
 import Passionate from './Componets/Passionate'
+import Services from './Componets/Services'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Marquee />
       <RecentWork />
       <Passionate />
+      <Services />
     </>
   )
 }

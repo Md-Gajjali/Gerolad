@@ -11,9 +11,9 @@ const Banner = () => {
         <div>
             <Container>
                 <div className='flex justify-center items-center gap-12.75'>
-                    <h2 className='font-sora font-semibold text-[203px] text-white'>Hello</h2>
+                    <h2 className='font-sora font-semibold text-[180px] text-white'>Hello</h2>
                     <img src={link} alt="" />
-                    <h2 className='font-sora font-semibold text-[203px] text-white'>Motion</h2>
+                    <h2 className='font-sora font-semibold text-[180px] text-white'>Motion</h2>
                 </div>
                 <div className='flex justify-center  mt-14 gap-40 '>
                     <div>
