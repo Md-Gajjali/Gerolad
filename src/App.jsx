@@ -4,6 +4,7 @@ import Navber from './Componets/Navber'
 import Banner from './Componets/Banner'
 import Marquee from './Componets/Marquee'
 import RecentWork from './Componets/RecentWork'
+import Passionate from './Componets/Passionate'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Banner />
       <Marquee />
       <RecentWork />
+      <Passionate />
     </>
   )
 }
