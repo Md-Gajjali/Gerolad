@@ -6,6 +6,8 @@ import Marquee from './Componets/Marquee'
 import RecentWork from './Componets/RecentWork'
 import Passionate from './Componets/Passionate'
 import Services from './Componets/Services'
+import ClientWork from './Componets/ClientWork'
+import RotateCard from './Componets/RotateCard'
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
       <RecentWork />
       <Passionate />
       <Services />
+      <ClientWork />
+      <RotateCard />
     </>
   )
 }
