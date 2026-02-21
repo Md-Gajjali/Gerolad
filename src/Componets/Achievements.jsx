@@ -7,7 +7,7 @@ import work3 from '../assets/work3.png'
 
 const Achievements = () => {
     return (
-        <div className='mt-50 bg-black py-10'>
+        <div className='mt-50 bg-[#140C1C] py-10'>
             <Container>
                 <div className=' m-auto justify-center items-center text-center '>
                     <p className='text-primary '>Behind the Pixels</p>

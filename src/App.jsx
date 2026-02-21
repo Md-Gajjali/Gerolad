@@ -9,6 +9,9 @@ import Services from './Componets/Services'
 import ClientWork from './Componets/ClientWork'
 import RotateCard from './Componets/RotateCard'
 import Achievements from './Componets/Achievements'
+import Contact from './Componets/Contact'
+import Blog from './Componets/Blog'
+import Footer from './Componets/Footer'
 
 function App() {
 
@@ -23,6 +26,9 @@ function App() {
       <ClientWork />
       <RotateCard />
       <Achievements />
+      <Contact />
+      <Blog />
+      <Footer />
     </>
   )
 }
