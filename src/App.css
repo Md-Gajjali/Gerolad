@@ -15,3 +15,7 @@ body{
   cursor: pointer;
 }
 
+
+.common p:hover {
+  cursor: pointer;
+}

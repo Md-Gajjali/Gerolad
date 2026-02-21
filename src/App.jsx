@@ -8,6 +8,7 @@ import Passionate from './Componets/Passionate'
 import Services from './Componets/Services'
 import ClientWork from './Componets/ClientWork'
 import RotateCard from './Componets/RotateCard'
+import Achievements from './Componets/Achievements'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Services />
       <ClientWork />
       <RotateCard />
+      <Achievements />
     </>
   )
 }
