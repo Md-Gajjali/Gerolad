@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from './Container'
-import link from '../assets/link.png'
+import link from '../assets/Link.png'
 import man from '../assets/man.png'
 import Top from '../assets/Top.png'
 import right from '../assets/right.png'

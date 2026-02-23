@@ -3,8 +3,8 @@ import Flex from './Flex'
 
 const RotateCard = () => {
     return (
-        <div>
-            <div className='w-full bg-primary mt-50 z-100! text-white  py-7  px-10 rotate-3'>
+        <div className=''>
+            <div className='w-full bg-primary mt-50 z-100!  text-white  py-7  px-10 rotate-3'>
                 <Flex className='justify-between'>
                     <span>Graphic </span>
                     <span>Design</span>
