@@ -15,7 +15,7 @@ const Achievements = () => {
                         <span className='bg-linear-to-r from-white via-gray-400 to-gray-600 bg-clip-text text-transparent uppercase'>Achievements</span>
                     </h2>
                 </div>
-                <div className='common flex h-13 justify-center gap-12 items-center m-auto mb-10 px-2 py-4  rounded-2xl mt-10 w-97.5 bg-primary text-white '>
+                <div className='common flex h-13 justify-center gap-8 items-center m-auto mb-10 px-2 py-4  rounded-2xl mt-10 w-97.5 bg-primary text-white '>
                     <p className='hover:bg-black py-2 px-3 rounded-[10px]'>Experiences</p>
                     <p className='hover:bg-black py-2 px-3 rounded-[10px]'>Education</p>
                     <p className='hover:bg-black py-2 px-2 rounded-[10px]'>Awards</p>
